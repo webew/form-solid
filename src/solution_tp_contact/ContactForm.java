@@ -1,11 +1,11 @@
 package solution_tp_contact;
 
-public class Contact {
+public class ContactForm extends Form{
     private String objet;
     private String email;
     private String message;
 
-    public Contact(String objet, String email, String message) {
+    public ContactForm(String objet, String email, String message) {
         this.objet = objet;
         this.email = email;
         this.message = message;
